@@ -30,5 +30,7 @@ export function encode(number) {
             return "XVI";
         case 19:
             return "XIX";
+        case 20:
+            return "XX";
     }
 }
