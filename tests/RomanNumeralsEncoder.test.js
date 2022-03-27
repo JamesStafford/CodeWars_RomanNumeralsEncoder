@@ -21,7 +21,8 @@ describe("For RomanNumeralsEncoder, ", () => {
         [15, "XV"],
         [16, "XVI"],
         [19, "XIX"],
-        [20, "XX"]
+        [20, "XX"],
+        [21, "XXI"]
     ])(`%i is encoded as "%s"`, (arabicNumber, romanNumeral) => {
         expect(encode(arabicNumber)).toBe(romanNumeral);
     });

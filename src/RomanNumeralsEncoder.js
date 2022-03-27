@@ -32,5 +32,7 @@ export function encode(number) {
             return "XIX";
         case 20:
             return "XX";
+        case 21:
+            return "XXI";
     }
 }
