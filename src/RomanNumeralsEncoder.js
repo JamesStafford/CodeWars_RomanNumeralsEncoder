@@ -20,5 +20,9 @@ export function encode(number) {
             return "IX";
         case 10:
             return "X";
+        case 11:
+            return "XI";
+        case 14:
+            return "XIV";
     }
 }
