@@ -1,7 +1,10 @@
 export function encode(number) {
-    if (number === 1) {
-        return "I"
-    } else {
-        return "II";
+    switch (number) {
+        case 1:
+            return "I";
+        case 2:
+            return "II";
+        case 3:
+            return "III";
     }
 }
