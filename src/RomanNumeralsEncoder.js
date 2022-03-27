@@ -24,5 +24,7 @@ export function encode(number) {
             return "XI";
         case 14:
             return "XIV";
+        case 15:
+            return "XV";
     }
 }
