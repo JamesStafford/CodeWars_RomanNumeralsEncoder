@@ -1,8 +1,9 @@
 import {encode} from "../src/RomanNumeralsEncoder";
+import {encode1} from "../src/RomanNumeralsEncoder1";
 
 describe("For RomanNumeralsEncoder, ", () => {
     test("No error is thrown when encoded with number", () => {
-        expect(() => encode(1)).not.toThrow();
+        expect(() => encode1(1)).not.toThrow();
     });
 
     test.each([
@@ -25,7 +26,7 @@ describe("For RomanNumeralsEncoder, ", () => {
         [21, "XXI"],
         [22, "XXII"]
     ])(`%i is encoded as "%s"`, (arabicNumber, romanNumeral) => {
-        expect(encode(arabicNumber)).toBe(romanNumeral);
+        expect(encode1(arabicNumber)).toBe(romanNumeral);
     });
 
 /*    it ("should handle small numbers", () => {
