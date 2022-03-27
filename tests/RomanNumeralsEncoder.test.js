@@ -29,10 +29,11 @@ describe("For RomanNumeralsEncoder, ", () => {
         expect(encode(6)).toBe("VI");
     })
 
-
+    test(`7 is encoded as "VII"`, () => {
+        expect(encode(7)).toBe("VII");
+    })
 
 /*    it ("should handle small numbers", () => {
-        Test.assertEquals(solution(5), 'V', '5 should, "V"')
         Test.assertEquals(solution(9), 'IX', '9 should, "IX"')
         Test.assertEquals(solution(10), 'X', '10 should, "X"')
         Test.assertEquals(solution(11), 'XI')
