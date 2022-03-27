@@ -26,5 +26,7 @@ export function encode(number) {
             return "XIV";
         case 15:
             return "XV";
+        case 16:
+            return "XVI";
     }
 }

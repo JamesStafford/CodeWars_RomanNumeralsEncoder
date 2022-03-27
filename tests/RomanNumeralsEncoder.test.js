@@ -60,6 +60,9 @@ describe("For RomanNumeralsEncoder, ", () => {
     test(`15 is encoded as "XV"`, () => {
         expect(encode(15)).toBe("XV");
     });
+    test(`16 is encoded as "XVI"`, () => {
+        expect(encode(16)).toBe("XVI");
+    });
 
 /*    it ("should handle small numbers", () => {
         Test.assertEquals(solution(11), 'XI')
