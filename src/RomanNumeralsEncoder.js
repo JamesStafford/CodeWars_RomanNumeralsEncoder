@@ -10,5 +10,7 @@ export function encode(number) {
             return "IV";
         case 5:
             return "V";
+        case 6:
+            return "VI";
     }
 }
